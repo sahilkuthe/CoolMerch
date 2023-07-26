@@ -6,7 +6,7 @@ import com.thegreatsahil.coolmerch.model.Product
 
 object DataServices {
 
-    val Categories = listOf(
+    val categories = listOf(
         Category("SHIRTS", "shirtImage"),
         Category("Hoodies", "hoodieImage"),
         Category("Hats", "hatImage"),
