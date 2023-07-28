@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CoolMerch</string>
+    <string name="categories">Categories</string>
 </resources>

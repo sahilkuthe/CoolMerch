@@ -44,8 +44,8 @@ class CategoryAdapter(val context: Activity, val categories: List<Category>) : B
             categoryView = inflater.inflate(R.layout.category_list, null)
 
             holder = ViewHolder()
-            holder.categoryImage = categoryView.findViewById(R.id.CategoryImage)
-            holder.categoryName = categoryView.findViewById(R.id.CategoryName)
+            holder.categoryImage = categoryView.findViewById(R.id.categoryImage)
+            holder.categoryName = categoryView.findViewById(R.id.categoryName)
             categoryView.tag = holder
         } else {
             holder = convertView.tag as ViewHolder

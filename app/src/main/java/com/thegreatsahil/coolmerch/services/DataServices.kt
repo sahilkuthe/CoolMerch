@@ -1,5 +1,6 @@
 package com.thegreatsahil.coolmerch.services
 
+import com.thegreatsahil.coolmerch.R
 import com.thegreatsahil.coolmerch.model.Category
 import com.thegreatsahil.coolmerch.model.Product
 
@@ -7,11 +8,10 @@ import com.thegreatsahil.coolmerch.model.Product
 object DataServices {
 
     val categories = listOf(
-        Category("SHIRTS", "shirtImage"),
-        Category("Hoodies", "hoodieImage"),
-        Category("Hats", "hatImage"),
-        Category("Digital", "digitalGoodsImage")
-
+        Category("SHIRTS", R.drawable.shirtimage),
+        Category("Hoodies", R.drawable.hoodieimage),
+        Category("Hats", R.drawable.hatimage),
+        Category("Digital", R.drawable.digitalgoodsimage)
     )
 
     val shirts = listOf(
