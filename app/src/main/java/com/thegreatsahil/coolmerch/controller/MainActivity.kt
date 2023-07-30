@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     lateinit var adapter: CategoryRecycleAdapter
     private lateinit var recyclerView: RecyclerView
-    private lateinit var categories: List<Category>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
